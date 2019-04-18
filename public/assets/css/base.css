@@ -508,10 +508,10 @@ input, select, textarea {
         }
 
         #headerToggle {
-            -moz-backface-visibility: hidden;
-            -webkit-backface-visibility: hidden;
-            -ms-backface-visibility: hidden;
-            backface-visibility: hidden;
+            -moz-backface-visibility: visible;
+            -webkit-backface-visibility: visible;
+            -ms-backface-visibility: visible;
+            backface-visibility: visible;
             -moz-transition: -moz-transform 0.5s ease;
             -webkit-transition: -webkit-transform 0.5s ease;
             -ms-transition: -ms-transform 0.5s ease;
@@ -556,7 +556,7 @@ input, select, textarea {
                     width: 3.25em;
                     height: 2.25em;
                     line-height: 2.25em;
-                }
+                } */
 
         body.header-visible #main {
             -moz-transform: translateX(275px);
@@ -588,10 +588,10 @@ input, select, textarea {
     /* Main */
 
         #main {
-            -moz-backface-visibility: hidden;
-            -webkit-backface-visibility: hidden;
-            -ms-backface-visibility: hidden;
-            backface-visibility: hidden;
+            -moz-backface-visibility: visible;
+            -webkit-backface-visibility: visible;
+            -ms-backface-visibility: visible;
+            backface-visibility: visible;
             -moz-transition: -moz-transform 0.5s ease;
             -webkit-transition: -webkit-transform 0.5s ease;
             -ms-transition: -ms-transform 0.5s ease;
